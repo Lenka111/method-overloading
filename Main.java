@@ -1,14 +1,14 @@
+//Elena Voinu
+
 public class Main {
 
     public static void main(String[] args) {
 
         calcFeetAndInchesToCentimeters(6, 10);
         calcFeetAndInchesToCentimeters(100);
+   }
 
-
-    }
-
-    //feet to inches
+    //feet to inches conversion
     public static double calcFeetAndInchesToCentimeters(double feet, double inches){
 
         if(feet <0 || inches <0 || inches >12) {
@@ -34,7 +34,6 @@ public class Main {
         return  calcFeetAndInchesToCentimeters(feet, remainingInches);
     }
 
-
-    }
+}
 
 
