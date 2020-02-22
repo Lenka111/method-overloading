@@ -8,14 +8,14 @@ public class Main {
         calcFeetAndInchesToCentimeters(100);
    }
 
-    //feet to inches conversion
+    //fmethod that converts feet to inches
     public static double calcFeetAndInchesToCentimeters(double feet, double inches){
 
         if(feet <0 || inches <0 || inches >12) {
             System.out.println("Invalid parameters");
             return -1;
         }
-
+        //feet to inches conversion
         double cm = (feet * 12) * 2.54;
         cm += inches * 2.54;
         System.out.println(feet + " feet " + inches + " inches = " + cm + "cm");
