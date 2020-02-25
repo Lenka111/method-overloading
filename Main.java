@@ -4,11 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //method call with the parameters 6 and 10
         calcFeetAndInchesToCentimeters(6, 10);
         calcFeetAndInchesToCentimeters(100);
    }
 
-    //fmethod that converts feet to inches
+    //method that converts feet to inches
     public static double calcFeetAndInchesToCentimeters(double feet, double inches){
 
         if(feet <0 || inches <0 || inches >12) {
@@ -23,6 +24,7 @@ public class Main {
 
         }// end calcFeet method
 
+    // method overloadin with one parameter
     public static double calcFeetAndInchesToCentimeters(double inches) {
         if (inches < 0) {
             System.out.println("Invalid parameters");
